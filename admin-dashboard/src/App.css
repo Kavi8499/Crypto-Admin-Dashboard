@@ -1,0 +1,252 @@
+.App{
+  margin:0 auto;
+  width:80%;
+  background-color: #fff;
+  display: flex;
+  font-size: 0.7rem;
+  font-family: 'Nunito Sans', sans-serif;
+}
+p{
+  font-size: 1rem;
+}
+li a{
+  font-size: 1rem;
+  color:white
+}
+.vertical{
+  display: none;
+  
+}
+
+.division2{
+  width:100%;
+}
+.dashboard{
+  display: flex;
+  gap:1rem;
+}
+.home{
+  display: flex;
+}
+.home>div:nth-child(1){
+margin-top: 1rem;
+}
+.box{
+  height:5rem;
+  border:0px solid black;
+  padding:1.2rem;
+  margin-top:1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  border-radius: 5px;
+}
+.details{
+  width:50%;
+  line-height: 1.5;
+}
+.image{
+  width:50%;
+  direction: rtl;
+  margin-right: 0rem;
+}
+.image img{
+  width:3rem;
+  height:3rem;
+  object-fit: contain;
+  opacity: 0.5;
+  align-items: flex-end;
+}
+
+.menu{
+  margin-top: 0.5rem;
+}
+.search{
+  margin-top: 1rem;
+}
+.avatar{
+  margin-top: 0.8rem;
+}
+.badge{
+  margin-top: 1rem;
+  
+}
+.badgegroup{
+  border:0 px solid black;
+  display: flex;
+  flex-direction: end;
+
+}
+.linechart{
+
+  margin: 1rem 0rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.Roundchart{
+    
+  display: flex;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  
+}
+.Roundchart>div:nth-child(even){
+  margin-top: 13rem;;
+  display: inline;
+}
+.dot1{
+  width: 1rem;
+  height:1rem;
+  border: 0px solid black;
+  border-radius: 50%;
+  background-color: orange;
+  margin:0.5rem -1.9rem;
+}
+.dot2{
+  width: 1rem;
+  height:1rem;
+  border: 0px solid black;
+  border-radius: 50%;
+  background-color: orangered;
+  margin:0.5rem -1.9rem;
+}
+.dot3{
+  width: 1rem;
+  height:1rem;
+  border: 0px solid black;
+  border-radius: 50%;
+  background-color: green;
+  margin:0rem -1.9rem;
+}
+.dot4{
+  width: 1rem;
+  height:1rem;
+  border: 0px solid black;
+  border-radius: 50%;
+  background-color: blue;
+  margin:0rem -1.9rem;
+}
+.Roundchart p{
+  margin:-0.4rem 0rem 1rem 1.5rem;
+}
+.illustration{
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+}
+.Paragraph{
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.slider{
+  margin:0 auto;
+  width: 90%;
+  margin:1rem 1rem;
+  
+}
+.slider>div:nth-child(1){
+  border:0px solid  black;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  padding: 3rem;
+}
+.align{
+  float:right;
+}
+.slider>div{
+margin-top: 1rem;
+
+}
+.copy{
+  text-align: center;
+  padding: 1rem 0rem 1rem 0rem; 
+}
+.card_aligment{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+}
+.dash{
+  display: flex;
+}
+.alignment{
+  width: 100%;
+}
+.h4{
+  font-weight: bold;
+}
+@media (min-width:800px){
+  .badge{
+    margin:1rem;
+  }
+  .avatar{
+    margin: 0.8rem 1rem;
+  }
+  .vertical{
+    border: 0px solid green;
+    display: flex;
+   
+  }
+  .division1{
+    background-color: rgb(88, 88, 146);
+    border: 0px solid black;
+    width: 20%;
+    padding: 0rem 6rem 0rem 0rem;
+    margin-right: 1rem;
+  }
+  .home{
+    display: none;
+  }
+  .vertical{
+    display: block;
+  }
+  
+  .division2{
+    width:75%;
+  }
+  
+}
+@media (min-width:1100px){
+  .App{
+    margin:0 auto;
+    width:100%;
+    background-color: #fff;
+  }
+  /* .linechart{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width:95%;
+    height: 100%;
+    border:1px solid black
+  } */
+  .charts{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .charts>div{
+    border:0px solid black;
+    width:95%;
+    margin-top: 2rem;
+  }
+  .alignment{
+    display: flex;
+  }
+  .alignment>div{
+    width: 48%;
+    margin-top: 2rem;
+  }
+  .alignment>div:nth-child(even){
+    margin-left: 1rem;
+  }
+  .piechart>div:nth-child(even){
+    margin-top: 13rem;;
+    display: inline;
+    margin-left: 5rem;;
+  }
+  .card_aligment{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 0;
+  }
+  
+}
+
